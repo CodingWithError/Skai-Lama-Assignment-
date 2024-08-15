@@ -1,0 +1,113 @@
+.account-settings-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.account-settings-content {
+  padding: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button::before {
+  content: '←';
+  margin-right: 10px;
+}
+
+.user-info-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 250px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.user-avatars {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.user-details {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 200px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.subscriptions-section {
+  margin-top: 30px;
+}
+
+.subscriptions-section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.subscription-message {
+  background-color: #f8e5ff;
+  border: 1px solid #e0b0ff;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-message p {
+  color: #8A2BE2;
+  font-size: 16px;
+}
+
+.upgrade-button {
+  background-color: #8A2BE2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.upgrade-button:hover {
+  background-color: #7B1FA2;
+}

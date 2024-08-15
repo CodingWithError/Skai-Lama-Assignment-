@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+.bg-wave-pattern {
+  background-image: url('/wave-pattern.svg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
